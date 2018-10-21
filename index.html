@@ -1,0 +1,267 @@
+
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skyrim 2018</title>
+<link rel="shortcut icon" href="skyrim2.ico" type="image/x-icon">
+
+</head>
+<style>
+body, html
+{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+		background-image: url("20180307173255_1.jpg");
+	background-size: cover;
+	 background-repeat:no-repeat;
+   background-attachment:fixed;
+   background-position:center; 
+	width:100%;
+	height:100%;
+}
+
+.container{
+	background-color: rgba(0,0,0, 1);
+	width:100%;
+	height:100%;
+	animation: fadeout 3s;
+	animation-delay: 0.5s;
+	-webkit-animation-fill-mode:forwards;
+}
+
+.text{
+	font-size:12px;
+		font-family:verdana;
+}
+.text > a{
+	color:#ff1010;
+}
+
+.text > a:visited{
+	color:#bb1010;
+}
+.main{    
+	font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+	font-family:verdana;
+	color:#ff2020;
+	padding-top:16%;
+	text-decoration:none;
+	font-weight:700;
+}
+
+.main > a{
+	color:#fff;
+	padding:10px;
+
+	-webkit-transition:0.3s;
+	text-decoration:none;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+
+}
+.main > a:hover{
+	color:#ff2020;
+	-webkit-transition:0.5s;
+	background: rgba(154, 36, 36, 0.2);
+	border-radius: 10px;
+	text-decoration:none;
+	
+}
+.main > a:visited{
+	color:#fff;
+	padding:10px;
+	-webkit-transition:0.3s;
+}
+.main > a:hover:visited{
+color:#ff2020;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeout {
+    from { background-color: rgba(0,0,0, 1); }
+    to   { background-color: rgba(0,0,0, 0.3); }
+}
+@keyframes mymove {
+    from {width: 0px;}
+    to {width: 100%;}
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in{
+  opacity:0;
+  opacity: 1 9;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+
+.fade-in.one {
+  -webkit-animation-delay: 3.2s;
+  -moz-animation-delay: 3.2s;
+  animation-delay: 3.2s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 3.7s;
+  -moz-animation-delay: 3.7s;
+  animation-delay: 3.7s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 4.2s;
+  -moz-animation-delay: 4.2s;
+  animation-delay: 4.2s;
+}
+.fade-in.four {
+  -webkit-animation-delay: 4.7s;
+  -moz-animation-delay: 4.7s;
+  animation-delay: 4.7s;
+}
+
+.under_main{
+	margin-top:15px;
+	margin-left:-1px;
+    width: 1px;
+    height: 1px;
+    background: white;
+    position: relative;
+    animation: mymove 2.7s;
+    animation-delay: 3s;
+	animation-timing-function: linear;
+	-webkit-animation-fill-mode:forwards;
+}
+.logo{
+	opacity: 0;
+    margin: auto;
+
+	animation: fadein 2s;
+    animation-delay: 5.7s;
+	-webkit-animation-fill-mode:forwards;
+}
+
+a{
+	color:#fff;
+	padding:10px;
+	-webkit-transition:0.3s;
+	text-decoration:none;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+
+}
+a:hover{
+	-webkit-transition:0.5s;
+	background: rgba(154, 36, 36, 0.2);
+	border-radius: 10px;
+	text-decoration:none;
+	
+}
+a:visited{
+	color:#fff;
+	padding:10px;
+	-webkit-transition:0.3s;
+}
+a:hover:visited{
+}
+ol {
+  list-style: none;
+}
+ol li {
+  display: inline-block;
+}
+}
+a:hover:visited{
+}
+ol {
+padding:0px;
+  list-style: none;
+}
+ol li {
+  display: inline-block;
+  margin-top:25px;
+}
+img{    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+
+@media (max-width: 1366px) {	a{font-size:26px;}
+}
+	
+	
+@media (max-width: 1005px) {	body{
+		background-image:url("character.jpg");
+}
+.main{padding-top:10%;}
+.under_main{display: none;}
+img{width:90%;}
+ol li {display:block;}
+a{font-size:25px;}
+}
+
+
+
+.footer{
+	align-items: flex-end;
+}
+
+
+</style>
+
+<body>
+
+
+
+<div class="container">
+<div class="logo">
+<img src="5904f37ebbee4f0964d87903.png">
+</div>
+<div class="main">
+<ol>
+    <li>
+        <div class="fade-in one">
+            <div class="box"><a href="main.html">Główny artukuł</a></div>
+        </div>
+    </li>
+    <li>
+        <div class="fade-in two">
+            <div class="box"><a href="o_modowaniu.html">O modowaniu</a></div>
+        </div>
+    </li>
+    <li>
+        <div class="fade-in three">
+            <div class="box"><a href="modowanie_grafiki.html">Modowanie grafiki</a></div>
+        </div>
+    </li>
+    <li>
+        <div class="fade-in four">
+            <div class="box"><a href="zrzuty_ekranu.html">Zrzuty ekranu</a></div>
+        </div>
+    </li>
+<ol>
+
+
+</div>
+<div class="under_main"></div>
+</div>
+</body>
+</html>
